@@ -24,7 +24,7 @@
 
   <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="lollipop" />
 
-  <project path="build" name="Darkobas/android_build" remote="github" revision="lollipop" >
+  <project path="build" name="Darkobas/android_build" remote="github" revision="L" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -287,7 +287,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-12.0" groups="pdk" />
-  <project path="frameworks/base" name="Darkobas/android_frameworks_base" remote="github" revision="lollipop" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="Darkobas/android_frameworks_base" remote="github" revision="L" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -410,7 +410,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="Darkobas/android_packages_apps_Settings" remote="github" revision="lollipop"  />
+  <project path="packages/apps/Settings" name="Darkobas/android_packages_apps_Settings" remote="github" revision="L"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -500,7 +500,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="Darkobas/android_system_core" remote="github" revision="lollipop" groups="pdk" />
+  <project path="system/core" name="aospa-legacy/android_system_core" remote="github" revision="lollipop" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="cm" revision="cm-12.0" groups="pdk" />
