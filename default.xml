@@ -22,7 +22,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="lollipop" />
+  <project path="manifest" name="darkobas/manifest" remote="github" revision="L" />
 
   <project path="build" name="Darkobas/android_build" remote="github" revision="L" >
     <copyfile src="core/root.mk" dest="Makefile" />
