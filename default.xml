@@ -442,7 +442,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" remote="cm" revision="cm-12.0" />
-  <project path="packages/services/Telecomm" name="AOSPA-legacy/android_packages_services_Telecomm" remote="github" revision="lollipop" />
+  <project path="packages/services/Telecomm" name="DarkoBas/android_packages_services_Telecomm" remote="github" revision="L" />
   <project path="packages/services/Telephony" name="DarkoBas/android_packages_services_Telephony" remote="github" revision="L" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="cm" revision="cm-12.0" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" remote="cm" revision="cm-12.0" />
@@ -529,6 +529,8 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <!-- DashClock widget -->
+  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="lp5.0" />
 
   <project path="vendor/psd" name="darkobas/android_vendor_psd" remote="github" revision="L" >
     <copyfile src="build.sh" dest="rom-build.sh" />
