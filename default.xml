@@ -19,7 +19,7 @@
            review="review.cyanogenmod.org" />
 
   <remote  name="gitorious"
-           fetch="git@gitorious.org" />
+           fetch="ssh://git@gitorious.org/" />
 
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
