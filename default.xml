@@ -357,7 +357,6 @@
   <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
-  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
   <project groups="pdk" name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5"/>
   <project groups="pdk" name="platform/hardware/ti/omap3" path="hardware/ti/omap3"/>
   <project groups="pdk" name="platform/hardware/ti/omap4-aah" path="hardware/ti/omap4-aah"/>
@@ -495,6 +494,7 @@
   <project groups="device" name="proprietary_vendor_oppo" path="vendor/oppo" remote="par" revision="lollipop_bacon"/>
 
   <project groups="qcom,default" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="par" revision="lollipop_bacon"/>
+  <project groups="pdk" name="android_hardware_ril" path="hardware/ril" remote="par" revision="lollipop_bacon"/>
 
 <!-- CyanogenMod Bacon Dependencies (we can't pass them) -->
 
