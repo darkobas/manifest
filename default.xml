@@ -353,7 +353,7 @@
   <project groups="pdk" name="platform/hardware/nvidia/audio" path="hardware/nvidia/audio"/>
   <project groups="pdk" name="platform/hardware/nvidia/tegra124" path="hardware/nvidia/tegra124"/>
   <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="LA.BF.1.1.1.c4_1"/>
   <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
