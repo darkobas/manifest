@@ -288,7 +288,6 @@
   <project groups="pdk" name="platform/external/vixl" path="external/vixl"/>
   <project groups="pdk-cw-fs,qcom_msm8x26" name="platform/external/webp" path="external/webp"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc"/>
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project groups="pdk-cw-fs" name="platform/external/xmlwriter" path="external/xmlwriter"/>
   <project groups="pdk-cw-fs" name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
   <project groups="pdk" name="platform/external/yaffs2" path="external/yaffs2"/>
@@ -491,6 +490,8 @@
   <project groups="device" name="android_device_oneplus_bacon" path="device/oneplus/bacon" remote="par" revision="lollipop_bacon"/>
   <project groups="device" name="android_kernel_oneplus_msm8974" path="kernel/" remote="par" revision="lollipop_bacon"/>
   <project groups="device" name="proprietary_vendor_oneplus" path="vendor/oneplus/bacon" remote="par" revision="lollipop_bacon"/>
+
+  <project groups="pdk" name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="par" revision="lollipop_bacon"/>
 
   <project groups="qcom,default" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="par" revision="lollipop_bacon"/>
   <project groups="pdk" name="android_hardware_ril" path="hardware/ril" remote="par" revision="lollipop_bacon"/>
