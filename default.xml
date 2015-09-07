@@ -354,7 +354,6 @@
   <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="LA.BF.1.1.1.c4_1"/>
   <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
   <project groups="pdk" name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5"/>
   <project groups="pdk" name="platform/hardware/ti/omap3" path="hardware/ti/omap3"/>
@@ -491,6 +490,7 @@
   <project groups="device" name="android_kernel_oneplus_msm8974" path="kernel/" remote="par" revision="lollipop_bacon"/>
   <project groups="device" name="proprietary_vendor_oneplus" path="vendor/oneplus/bacon" remote="par" revision="lollipop_bacon"/>
 
+  <project groups="qcom,default" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="par" revision="lollipop_bacon"/>
   <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="lollipop_bacon"/>
   <project groups="pdk" name="android_hardware_ril" path="hardware/ril" remote="par" revision="lollipop_bacon"/>
 
