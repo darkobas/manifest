@@ -379,7 +379,6 @@
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
-  <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>
@@ -537,6 +536,7 @@
   <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="par" revision="lollipop_common" />
   <project name="android_packages_apps_LegacyCamera" path="packages/apps/LegacyCamera" remote="par" revision="lollipop_common" />
   <project name="android_packages_apps_Music" path="packages/apps/Music" remote="par" revision="lollipop_common" />
+  <project name="android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="par" revision="lollipop_common" />
   <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="par" revision="lollipop_common" />
   <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="par" revision="lollipop_common" />
 
