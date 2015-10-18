@@ -309,7 +309,6 @@
   <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
@@ -334,7 +333,7 @@
   <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
-  <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
+  <!-- <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/> -->
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
   <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
