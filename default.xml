@@ -302,7 +302,6 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/widget" path="frameworks/opt/widget"/>
   <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs"/>
-  <project groups="pdk-cw-fs" name="platform/frameworks/support" path="frameworks/support"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/volley" path="frameworks/volley"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/webview" path="frameworks/webview"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
@@ -316,7 +315,6 @@
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="pdk" name="platform/ndk" path="ndk"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
-  <project groups="pdk-cw-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth"/>
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
@@ -340,7 +338,6 @@
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
-  <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>
   <project name="platform/packages/apps/Phone" path="packages/apps/Phone"/>
   <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon"/>
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
@@ -461,10 +458,13 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="par" revision="marshmallow_msm8974" />
 
   <project path="frameworks/base" name="android_frameworks_base" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
+  <project name="android_frameworks_support" path="frameworks/support" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
 
+  <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
   <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="par" revision="marshmallow_msm8974" />
   <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="par" revision="marshmallow_msm8974" />
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="par" revision="marshmallow_msm8974" />
+  <project name="android_packages_apps_packageinstaller" path="packages/apps/PackageInstaller" remote="par" revision="marshmallow_msm8974" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="marshmallow_msm8974" />
 
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="par" revision="marshmallow_msm8974" />
