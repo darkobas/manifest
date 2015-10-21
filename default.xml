@@ -165,6 +165,7 @@
   <project groups="pdk" name="platform/external/liblzf" path="external/liblzf"/>
   <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2"/>
   <project groups="pdk-cw-fs" name="platform/external/libmtp" path="external/libmtp"/>
+  <project groups="pdk" name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project groups="pdk" name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
   <project groups="pdk" name="platform/external/libnl" path="external/libnl"/>
   <project groups="pdk" name="platform/external/libogg" path="external/libogg"/>
@@ -340,6 +341,7 @@
   <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
+  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
   <project name="platform/packages/apps/Phone" path="packages/apps/Phone"/>
   <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon"/>
@@ -452,8 +454,6 @@
 <!-- CyanogenMod Bacon Dependencies (we can't pass them) -->
 
   <project name="CyanogenMod/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-13.0"/>
-  <project name="CyanogenMod/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="cm-13.0"/>
-  <project name="CyanogenMod/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cm-13.0"/>
 
 <!-- QCOM MSM8974 -->
 
