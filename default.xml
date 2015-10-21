@@ -72,7 +72,6 @@
   <project groups="pdk" name="platform/external/apache-xml" path="external/apache-xml"/>
   <project groups="pdk" name="platform/external/bison" path="external/bison"/>
   <project groups="pdk-cw-fs" name="platform/external/blktrace" path="external/blktrace"/>
-  <project groups="pdk" name="platform/external/boringssl" path="external/boringssl"/>
   <project groups="pdk" name="platform/external/bouncycastle" path="external/bouncycastle"/>
   <project name="platform/external/brctl" path="external/brctl"/>
   <project groups="pdk" name="platform/external/bsdiff" path="external/bsdiff"/>
@@ -479,6 +478,8 @@
 
   <project groups="qcom,default" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="par" revision="marshmallow_msm8974"/>
   <project groups="qcom,default" name="android_hardware_qcom_display" path="hardware/qcom/display" remote="par" revision="marshmallow_msm8974"/>
+
+  <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="par" revision="marshmallow_msm8974"/>
 
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="marshmallow_msm8974"/>
 
