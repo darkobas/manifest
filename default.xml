@@ -398,7 +398,10 @@
   <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc"/>
   <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
   <project groups="linux,pdk,pdk-cw-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"/>
+  <project groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
+  <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools"/>
+  <project groups="pdk-cw-fs" name="platform/sdk" path="sdk"/>
   <project groups="pdk" name="platform/system/bt" path="system/bt"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
