@@ -416,7 +416,7 @@
   <project name="platform/vendor/qcom-opensource/stm-log" path="vendor/qcom/opensource/stm-log"/>
   <project name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
-  <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="LA.BF.1.1.1.c4"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="LA.BF.1.1.3_rb1.3"/>
   <!-- <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/> -->
   <project name="platform/vendor/qcom/msm8226" path="device/qcom/msm8226"/>
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610"/>
@@ -440,7 +440,7 @@
   <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="marshmallow_bacon"/>
   <project groups="pdk" name="android_hardware_ril" path="hardware/ril" remote="par" revision="marshmallow_bacon"/>
 
-  <project path="manifest" name="local_aosparadox" remote="par" revision="marshmallow_bacon"/>
+  <project path="manifest" name="darkobas/manifest" remote="github" revision="M-caf"/>
 
 <!-- CyanogenMod Bacon Dependencies (we can't pass them) -->
 
@@ -448,7 +448,7 @@
 
 <!-- QCOM MSM8974 -->
 
-  <project path="build" name="android_build" remote="github" revision="M-caf" >
+  <project path="build" name="darkobas/android_build" remote="github" revision="M-caf" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
