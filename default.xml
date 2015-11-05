@@ -452,15 +452,15 @@
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="par" revision="marshmallow_msm8974"/>
   <project path="system/core" name="android_system_core" groups="pdk" remote="par" revision="marshmallow_msm8974" />
 
-  <project path="frameworks/base" name="android_frameworks_base" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="darkobas/frameworks_base" remote="github" revision="M-caf" />
   <project name="android_frameworks_support" path="frameworks/support" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
 
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
   <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="par" revision="marshmallow_msm8974" />
-  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="par" revision="marshmallow_msm8974" />
+  <project name="android_packages_apps_Dialer" path="darkobas/android_packages_apps_Dialer" remote="github" revision="M-caf" />
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="par" revision="marshmallow_msm8974" />
   <project name="android_packages_apps_packageinstaller" path="packages/apps/PackageInstaller" remote="par" revision="marshmallow_msm8974" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="marshmallow_msm8974" />
+  <project path="packages/apps/Settings" name="darkobas/android_packages_apps_Settings" remote="github" revision="M-caf" />
 
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="par" revision="marshmallow_msm8974" />
 
