@@ -484,4 +484,5 @@
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Apollo" name="Omnirom/android_packages_apps_Apollo" remote="github" revision="android-6.0" />
   <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
+  <project name="sultanxda/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0" />
 </manifest>
