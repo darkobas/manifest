@@ -400,7 +400,6 @@
   <project groups="pdk" name="platform/system/extras" path="system/extras"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
-  <project groups="pdk" name="platform/system/media" path="system/media"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold"/>
@@ -484,4 +483,5 @@
   <project path="packages/apps/Launcher3" name="Omnirom/android_packages_apps_Launcher3" remote="github" revision="android-6.0" />
   <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
   <project name="darkobas/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="M-caf" />
+  <project name="darkobas/android_system_media" path="system/media" remote="github" revision="M-caf"/>
 </manifest>
