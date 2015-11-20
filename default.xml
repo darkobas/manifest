@@ -302,7 +302,7 @@
   <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
   <project groups="pdk" name="darkobas/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="M-caf" /> 
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
+  <project name="darkobas/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="M-caf" />
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
