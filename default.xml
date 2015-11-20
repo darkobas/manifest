@@ -287,7 +287,6 @@
   <project name="platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon"/>
   <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet"/>
-  <project groups="frameworks_ims,pdk-cw-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip"/>
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer"/>
@@ -484,4 +483,5 @@
   <project name="darkobas/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="M-caf" />
   <project name="darkobas/android_system_media" path="system/media" remote="github" revision="M-caf"/>
   <project path="packages/apps/InCallUI" name="darkobas/android_packages_apps_InCallUI" remote="github" revision="M-caf" />
+  <project path="frameworks/opt/net/ims" name="darkobas/android_frameworks_opt_net_ims" remote="github" revision="M-caf" />
 </manifest>
