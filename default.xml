@@ -442,7 +442,7 @@
   </project>
 
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="par" revision="marshmallow_msm8974"/>
-  <project path="system/core" name="android_system_core" groups="pdk" remote="par" revision="marshmallow_msm8974" />
+  <project path="system/core" name="darkobas/android_system_core" remote="github" revision="M-caf" />
 
   <project path="frameworks/base" name="darkobas/frameworks_base" remote="github" revision="M-caf" />
   <project name="android_frameworks_support" path="frameworks/support" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
