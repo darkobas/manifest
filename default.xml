@@ -231,7 +231,6 @@
   <project groups="pdk" name="platform/external/safe-iop" path="external/safe-iop"/>
   <project groups="pdk" name="platform/external/scrypt" path="external/scrypt"/>
   <project name="platform/external/selinux" path="external/selinux"/>
-  <project groups="pdk" name="platform/external/sepolicy" path="external/sepolicy"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia"/>
   <project name="platform/external/slf4j" path="external/slf4j"/>
@@ -356,7 +355,7 @@
   <project groups="pdk-cw-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider"/>
   <project groups="pdk-cw-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider"/>
   <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider"/>
-  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider"/>
+  <project name="darkobas/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="github" revision="M-caf" />
   <project name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider"/>
   <project groups="pdk-cw-fs" name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider"/>
   <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic"/>
@@ -476,6 +475,7 @@
 
 <!-- END AOSParadox Stuff -->
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-13.0" />
+  <project path="external/sepolicy" name="darkobas/android_external_sepolicy" remote="github" revision="M-caf" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Apollo" name="Omnirom/android_packages_apps_Apollo" remote="github" revision="android-6.0" />
   <project path="packages/apps/Launcher3" name="Omnirom/android_packages_apps_Launcher3" remote="github" revision="android-6.0" />
