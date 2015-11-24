@@ -315,7 +315,7 @@
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project groups="pdk-cw-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
+  <project name="darkobas/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="M-caf" />
   <project name="darkobas/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="M-caf" />
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
