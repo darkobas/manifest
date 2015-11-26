@@ -469,7 +469,7 @@
 
 <!-- AOSParadox Vendor -->
 
-  <project path="vendor/aosparadox" name="darkobas/android_vendor_aosparadox" remote="github" revision="M-caf"/>
+  <project path="vendor/aosparadox" name="darkobas/android_vendor_aosparadox" remote="github" revision="M-caf" >
     <copyfile dest="build.sh" src="build.sh"/>
 
 
