@@ -149,7 +149,7 @@
   <project groups="pdk-cw-fs" name="platform/external/junit" path="external/junit"/>
   <project groups="pdk-cw-fs" name="platform/external/kernel-headers" path="external/kernel-headers"/>
   <project groups="pdk-cw-fs" name="platform/external/ksoap2" path="external/ksoap2"/>
-  <project groups="pdk" name="platform/external/libavc" path="external/libavc"/>
+  <project name="CyanogenMod/android_external_libavc" path="external/libavc" remote="github" revision="cm-13.0" />
   <project groups="pdk-cw-fs" name="platform/external/libcap-ng" path="external/libcap-ng"/>
   <project groups="pdk" name="platform/external/libcxx" path="external/libcxx"/>
   <project groups="pdk" name="platform/external/libcxxabi" path="external/libcxxabi"/>
