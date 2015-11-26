@@ -461,7 +461,7 @@
 
   <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="par" revision="marshmallow_msm8974"/>
 
-  <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="marshmallow_msm8974"/>
+  <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="marshmallow_msm8974" />
 
 <!-- Busybox -->
 
@@ -470,8 +470,8 @@
 <!-- AOSParadox Vendor -->
 
   <project path="vendor/aosparadox" name="darkobas/android_vendor_aosparadox" remote="github" revision="M-caf" >
-    <copyfile dest="build.sh" src="build.sh"/>
-
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
 
 <!-- END AOSParadox Stuff -->
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-13.0" />
@@ -481,7 +481,7 @@
   <project path="packages/apps/Launcher3" name="Omnirom/android_packages_apps_Launcher3" remote="github" revision="android-6.0" />
   <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
   <project name="darkobas/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="M-caf" />
-  <project name="darkobas/android_system_media" path="system/media" remote="github" revision="M-caf"/>
+  <project name="darkobas/android_system_media" path="system/media" remote="github" revision="M-caf" />
   <project path="packages/apps/InCallUI" name="darkobas/android_packages_apps_InCallUI" remote="github" revision="M-caf" />
   <project path="frameworks/opt/net/ims" name="darkobas/android_frameworks_opt_net_ims" remote="github" revision="M-caf" />
 </manifest>
