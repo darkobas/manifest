@@ -394,7 +394,6 @@
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk"/>
   <project groups="pdk" name="platform/system/bt" path="system/bt"/>
-  <project groups="pdk" name="platform/system/extras" path="system/extras"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
@@ -482,6 +481,7 @@
   <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
   <project name="darkobas/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="M-caf" />
   <project name="darkobas/android_system_media" path="system/media" remote="github" revision="M-caf"/>
+  <project name="darkobas/android_system_extras" path="system/extras" remote="github" revision="M-caf"/>
   <project path="packages/apps/InCallUI" name="darkobas/android_packages_apps_InCallUI" remote="github" revision="M-caf" />
   <project path="frameworks/opt/net/ims" name="darkobas/android_frameworks_opt_net_ims" remote="github" revision="M-caf" />
 </manifest>
