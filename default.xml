@@ -460,7 +460,7 @@
 
   <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="par" revision="marshmallow_msm8974"/>
 
-  <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="marshmallow_msm8974"/>
+  <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="marshmallow_msm8974" />
 
 <!-- Busybox -->
 
@@ -468,9 +468,9 @@
 
 <!-- AOSParadox Vendor -->
 
-  <project path="vendor/aosparadox" name="darkobas/android_vendor_aosparadox" remote="github" revision="M-caf"/>
-    <copyfile dest="build.sh" src="build.sh"/>
-
+  <project path="vendor/aosparadox" name="darkobas/android_vendor_aosparadox" remote="github" revision="M-caf" >
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
 
 <!-- END AOSParadox Stuff -->
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-13.0" />
