@@ -259,7 +259,6 @@
   <project groups="pdk" name="platform/external/vogar" path="external/vogar"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc"/>
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project groups="pdk-cw-fs" name="platform/external/xmlwriter" path="external/xmlwriter"/>
   <project groups="pdk-cw-fs" name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
   <project groups="pdk" name="platform/external/zlib" path="external/zlib"/>
@@ -484,4 +483,6 @@
   <project name="darkobas/android_system_extras" path="system/extras" remote="github" revision="M-caf"/>
   <project path="packages/apps/InCallUI" name="darkobas/android_packages_apps_InCallUI" remote="github" revision="M-caf" />
   <project path="frameworks/opt/net/ims" name="darkobas/android_frameworks_opt_net_ims" remote="github" revision="M-caf" />
+  <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-13.0" />
 </manifest>
