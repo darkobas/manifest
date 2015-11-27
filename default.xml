@@ -483,5 +483,6 @@
   <project name="darkobas/android_system_media" path="system/media" remote="github" revision="M-caf"/>
   <project name="darkobas/android_system_extras" path="system/extras" remote="github" revision="M-caf"/>
   <project path="packages/apps/InCallUI" name="darkobas/android_packages_apps_InCallUI" remote="github" revision="M-caf" />
+  <project path="packages/apps/OpenDelta" name="darkobas/android_packages_apps_OpenDelta" remote="github" revision="M-caf" />
   <project path="frameworks/opt/net/ims" name="darkobas/android_frameworks_opt_net_ims" remote="github" revision="M-caf" />
 </manifest>
