@@ -287,7 +287,7 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon"/>
   <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip"/>
-  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi"/>
+  <project name="darkobas/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="M-caf" />
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard"/>
   <project name="darkobas/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="M-caf" />
