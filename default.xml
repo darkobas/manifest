@@ -486,4 +486,6 @@
   <project path="frameworks/opt/net/ims" name="darkobas/android_frameworks_opt_net_ims" remote="github" revision="M-caf" />
   <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_google" path="external/google" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="cm-13.0" />
 </manifest>
