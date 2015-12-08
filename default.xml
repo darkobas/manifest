@@ -307,7 +307,6 @@
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="pdk" name="platform/ndk" path="ndk"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
-  <project name="platform/packages/apps/Browser" path="packages/apps/Browser"/>
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera"/>
