@@ -453,7 +453,7 @@
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="par" revision="marshmallow_msm8974" />
 
 
-  <project groups="qcom,default" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="par" revision="marshmallow_msm8974"/>
+  <project name="darkobas/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="M-caf"/>
   <project groups="qcom,default" name="android_hardware_qcom_display" path="hardware/qcom/display" remote="par" revision="marshmallow_msm8974"/>
 
   <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="par" revision="marshmallow_msm8974"/>
