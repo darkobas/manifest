@@ -28,7 +28,7 @@
 	   fetch="git://codeaurora.org/" 
 	   review="codeaurora.org"/>
 
-  <default remote="caf" revision="LA.BF.1.1.3_rb1.5"/>
+  <default remote="caf" revision="LA.BF.1.1.3_rb1.6"/>
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
