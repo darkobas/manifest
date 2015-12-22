@@ -422,9 +422,9 @@
   <project groups="device" name="darkobas/android_kernel_oneplus_msm8974" path="kernel" remote="github" revision="M-caf-sultan"/>
   <project groups="device" name="darkobas/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="M-caf"/>
 
-  <project groups="qcom,default" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="par" revision="marshmallow_bacon"/>
+  <project name="darkobas/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="M-caf"/>
   <project groups="qcom,default" name="darkobas/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="M-caf"/>
-  <project groups="pdk" name="android_hardware_ril" path="hardware/ril" remote="par" revision="marshmallow_bacon"/>
+  <project name="darkobas/android_hardware_ril" path="hardware/ril" remote="github" revision="M-caf"/>
 
   <project path="manifest" name="darkobas/manifest" remote="github" revision="M-caf"/>
 
@@ -442,23 +442,23 @@
   <project path="system/core" name="darkobas/android_system_core" remote="github" revision="M-caf" />
 
   <project path="frameworks/base" name="darkobas/frameworks_base" remote="github" revision="M-caf" />
-  <project name="android_frameworks_support" path="frameworks/support" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
+  <project name="darkobas/android_frameworks_support" path="frameworks/support" remote="github" revision="M-caf" />
 
-  <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
-  <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="par" revision="marshmallow_msm8974" />
+  <project name="darkobas/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="M-caf" />
+  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" />
   <project name="darkobas/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="M-caf" />
-  <project name="android_packages_apps_packageinstaller" path="packages/apps/PackageInstaller" remote="par" revision="marshmallow_msm8974" />
+  <project name="darkobas/android_packages_apps_Packageinstaller" path="packages/apps/PackageInstaller" remote="github" revision="M-caf" />
   <project path="packages/apps/Settings" name="darkobas/android_packages_apps_Settings" remote="github" revision="M-caf" />
 
-  <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="par" revision="marshmallow_msm8974" />
+  <project path="system/qcom" name="darkobas/android_system_qcom" remote="github" revision="M-caf" />
 
 
   <project name="darkobas/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="M-caf"/>
-  <project groups="qcom,default" name="android_hardware_qcom_display" path="hardware/qcom/display" remote="par" revision="marshmallow_msm8974"/>
+  <project name="darkobas/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="M-caf"/>
 
-  <project groups="pdk" name="android_external_boringssl" path="external/boringssl" remote="par" revision="marshmallow_msm8974"/>
+  <project name="darkobas/android_external_boringssl" path="external/boringssl" remote="github" revision="M-caf"/>
 
-  <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="marshmallow_msm8974" />
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom-opensource/bluetooth" />
 
 <!-- Busybox -->
 
