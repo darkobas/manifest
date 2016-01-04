@@ -302,7 +302,6 @@
   <project name="darkobas/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="M-caf" />
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
-  <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="pdk" name="platform/ndk" path="ndk"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
@@ -479,6 +478,7 @@
   <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
   <project name="darkobas/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="M-caf" />
   <project name="darkobas/android_system_media" path="system/media" remote="github" revision="M-caf"/>
+  <project name="darkobas/android_libcore" path="libcore" remote="github" revision="M-caf"/>
   <project name="darkobas/android_system_extras" path="system/extras" remote="github" revision="M-caf"/>
   <project path="packages/apps/InCallUI" name="darkobas/android_packages_apps_InCallUI" remote="github" revision="M-caf" />
   <project path="packages/apps/OpenDelta" name="darkobas/android_packages_apps_OpenDelta" remote="github" revision="M-caf" />
