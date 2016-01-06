@@ -48,7 +48,6 @@
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project name="darkobas/art" path="art" remote="github" revision="M-caf" />
-  <project groups="pdk" name="platform/bionic" path="bionic"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
   <project groups="pdk-cw-fs" name="platform/dalvik" path="dalvik"/>
@@ -369,26 +368,26 @@
   <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField"/>
   <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam"/>
   <project groups="pdk" name="platform/pdk" path="pdk"/>
-  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6"/>
-  <project name="platform/prebuilts/devtools" path="prebuilts/devtools"/>
-  <project groups="pdk" name="platform/prebuilts/eclipse" path="prebuilts/eclipse"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
-  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8"/>
-  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
-  <project groups="pdk,linux,mips" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9"/>
-  <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
-  <project groups="pdk-cw-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
-  <project groups="pdk-cw-fs" name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit"/>
-  <project groups="pdk-cw-fs" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android"/>
-  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc"/>
-  <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
-  <project groups="linux,pdk,pdk-cw-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"/>
-  <project groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
-  <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
-  <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools"/>
+  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" clone-depth="1" path="prebuilts/clang/linux-x86/host/3.6"/>
+  <project name="platform/prebuilts/devtools" clone-depth="1" path="prebuilts/devtools"/>
+  <project groups="pdk" name="platform/prebuilts/eclipse" clone-depth="1" path="prebuilts/eclipse"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" clone-depth="1" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
+  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" clone-depth="1" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8"/>
+  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
+  <project groups="pdk,linux,mips" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" clone-depth="1" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9"/>
+  <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
+  <project groups="pdk-cw-fs" name="platform/prebuilts/gradle-plugin" clone-depth="1" path="prebuilts/gradle-plugin"/>
+  <project groups="pdk-cw-fs" name="platform/prebuilts/libs/libedit" clone-depth="1" path="prebuilts/libs/libedit"/>
+  <project groups="pdk-cw-fs" name="platform/prebuilts/maven_repo/android" clone-depth="1" path="prebuilts/maven_repo/android"/>
+  <project groups="pdk" name="platform/prebuilts/misc" clone-depth="1" path="prebuilts/misc"/>
+  <project groups="pdk" name="platform/prebuilts/ndk" clone-depth="1" path="prebuilts/ndk"/>
+  <project groups="linux,pdk,pdk-cw-fs" name="platform/prebuilts/python/linux-x86/2.7.5" clone-depth="1" path="prebuilts/python/linux-x86/2.7.5"/>
+  <project groups="pdk" name="platform/prebuilts/qemu-kernel" clone-depth="1" path="prebuilts/qemu-kernel"/>
+  <project groups="pdk" name="platform/prebuilts/sdk" clone-depth="1" path="prebuilts/sdk"/>
+  <project groups="pdk,tools" name="platform/prebuilts/tools" clone-depth="1" path="prebuilts/tools"/>
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk"/>
   <project groups="pdk" name="platform/system/bt" path="system/bt"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
@@ -487,4 +486,5 @@
   <project name="CyanogenMod/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_google" path="external/google" remote="github" revision="cm-13.0" />
   <project name="dirtyunicorns/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="m" />
+  <project name="darkobas/android_bionic" path="bionic" remote="github" revision="M-caf" />
 </manifest>
