@@ -28,7 +28,7 @@
 	   fetch="git://codeaurora.org/" 
 	   review="codeaurora.org"/>
 
-  <default remote="caf" revision="LA.BF.1.1.3_rb1.6"/>
+  <default remote="caf" revision="LA.BF.1.1.3_rb1.7"/>
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
@@ -47,7 +47,7 @@
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
-  <project name="darkobas/art" path="art" remote="github" revision="M-caf" />
+  <project name="darkobas/android_art" path="art" remote="github" revision="M-caf" />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
   <project groups="pdk-cw-fs" name="platform/dalvik" path="dalvik"/>
