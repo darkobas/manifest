@@ -299,7 +299,6 @@
   <project groups="pdk" name="darkobas/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="M-caf" /> 
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project name="darkobas/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="M-caf" />
-  <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="pdk" name="platform/ndk" path="ndk"/>
@@ -413,7 +412,7 @@
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
 
-  <project groups="pdk" path="frameworks/av" name="darkobas/android_frameworks_av" remote="github" revision="M-caf"/>
+  <project groups="pdk" path="frameworks/av" name="darkobas/android_frameworks_av" remote="github" revision="M-caf-cm"/>
 
   <project groups="device" name="darkobas/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="M-caf"/>
   <project groups="device" name="darkobas/android_kernel_oneplus_msm8974" path="kernel" remote="github" revision="M-caf-sultan"/>
@@ -485,6 +484,9 @@
   <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_google" path="external/google" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-13.0" />
   <project name="dirtyunicorns/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="m" />
   <project name="darkobas/android_bionic" path="bionic" remote="github" revision="M-caf" />
+  <project name="darkobas/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="M-caf-cm" />
 </manifest>
