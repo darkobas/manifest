@@ -311,7 +311,7 @@
   <project groups="pdk-cw-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
   <project name="darkobas/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="M-caf" />
   <project name="darkobas/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="M-caf" />
-  <project name="omnirom/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="github" revision="android-6.0"/>
+  <project name="darkobas/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="github" revision="M-caf"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
   <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
