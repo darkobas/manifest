@@ -412,7 +412,7 @@
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
 
-  <project groups="pdk" path="frameworks/av" name="darkobas/android_frameworks_av" remote="github" revision="M-caf-cm"/>
+  <project groups="pdk" path="frameworks/av" name="darkobas/android_frameworks_av" remote="github" revision="M-caf"/>
 
   <project groups="device" name="darkobas/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="M-caf"/>
   <project groups="device" name="darkobas/android_kernel_oneplus_msm8974" path="kernel" remote="github" revision="M-caf-sultan"/>
@@ -485,5 +485,5 @@
   <project name="CyanogenMod/android_external_google" path="external/google" remote="github" revision="cm-13.0" />
   <project name="dirtyunicorns/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="m" />
   <project name="darkobas/android_bionic" path="bionic" remote="github" revision="M-caf" />
-  <project name="darkobas/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="M-caf-cm" />
+  <project name="darkobas/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="M-caf" />
 </manifest>
