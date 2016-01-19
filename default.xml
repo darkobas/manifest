@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="par"
-            fetch="git://github.com/aosparadox/"
+  <remote  name="dbas"
+            fetch="git://github.com/darkobas/"
             sync-c="true"
             sync-j="4"
-            revision="marshmallow_msm8974" />
+            revision="M-caf" />
 
-  <remote  name="aosparadox"
-           fetch="ssh://git@github.com/aosparadox/"
+  <remote  name="darkobas"
+           fetch="ssh://git@github.com/darkobas/"
            sync-c="true" />
 
   <remote  name="aosp"
@@ -462,7 +462,7 @@
 
 <!-- AOSParadox Vendor -->
 
-  <project path="vendor/aosparadox" name="darkobas/android_vendor_aosparadox" remote="github" revision="M-caf" >
+  <project path="vendor/darkobas" name="darkobas/android_vendor_darkobas" remote="github" revision="M-caf" >
     <copyfile src="build.sh" dest="build.sh" />
   </project>
 
