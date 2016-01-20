@@ -470,7 +470,7 @@
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-13.0" />
   <project path="external/sepolicy" name="darkobas/android_external_sepolicy" remote="github" revision="M-caf" />
   <project path="frameworks/minikin" name="darkobas/android_frameworks_minikin" remote="github" revision="M-caf" />
-  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Apollo" name="Omnirom/android_packages_apps_Apollo" remote="github" revision="android-6.0" />
   <project path="packages/apps/Launcher3" name="Omnirom/android_packages_apps_Launcher3" remote="github" revision="android-6.0" />
   <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
   <project name="darkobas/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="M-caf" />
