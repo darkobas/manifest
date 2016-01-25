@@ -347,7 +347,6 @@
   <project groups="pdk-cw-fs" name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider"/>
   <project name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider"/>
   <project groups="pdk-cw-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider"/>
-  <project groups="pdk-cw-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider"/>
   <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider"/>
   <project name="darkobas/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="github" revision="M-caf" />
   <project name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider"/>
@@ -474,6 +473,7 @@
   <project path="packages/apps/Launcher3" name="Omnirom/android_packages_apps_Launcher3" remote="github" revision="android-6.0" />
   <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
   <project name="darkobas/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="M-caf" />
+  <project name="darkobas/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="github" revision="M-caf" />
   <project name="darkobas/android_system_media" path="system/media" remote="github" revision="M-caf"/>
   <project name="darkobas/android_libcore" path="libcore" remote="github" revision="M-caf"/>
   <project name="darkobas/android_system_extras" path="system/extras" remote="github" revision="M-caf"/>
