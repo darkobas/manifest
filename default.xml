@@ -394,7 +394,6 @@
   <project groups="pdk" name="platform/system/security" path="system/security"/>
   <project name="darkobas/android_system_vold" path="system/vold" remote="github" revision="M-caf" />
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices"/>
-  <project name="platform/vendor/qcom-opensource/display-frameworks" path="vendor/qcom/opensource/display-frameworks" revision="LA.BF.1.1.3_rb1.8" />
   <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm"/>
   <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm"/>
   <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
