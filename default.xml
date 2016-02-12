@@ -146,7 +146,6 @@
   <project groups="pdk-cw-fs" name="platform/external/jsoncpp" path="external/jsoncpp"/>
   <project groups="pdk-cw-fs" name="platform/external/jsr305" path="external/jsr305"/>
   <project groups="pdk-cw-fs" name="platform/external/junit" path="external/junit"/>
-  <project groups="pdk-cw-fs" name="platform/external/kernel-headers" path="external/kernel-headers"/>
   <project groups="pdk-cw-fs" name="platform/external/ksoap2" path="external/ksoap2"/>
   <project name="CyanogenMod/android_external_libavc" path="external/libavc" remote="github" revision="cm-13.0" />
   <project groups="pdk-cw-fs" name="platform/external/libcap-ng" path="external/libcap-ng"/>
@@ -396,7 +395,6 @@
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices"/>
   <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm"/>
   <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm"/>
-  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
 <!--  <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location"/> -->
   <project name="platform/vendor/qcom-opensource/stm-log" path="vendor/qcom/opensource/stm-log"/>
   <project name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework"/>
@@ -413,7 +411,7 @@
   <project groups="pdk" path="frameworks/av" name="darkobas/android_frameworks_av" remote="github" revision="M-caf"/>
 
   <project groups="device" name="darkobas/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="M-caf"/>
-  <project groups="device" name="darkobas/android_kernel_oneplus_msm8974" path="kernel" remote="github" revision="M-caf-sultan"/>
+  <project groups="device" name="darkobas/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="M-caf-remix"/>
   <project groups="device" name="darkobas/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="M-caf"/>
 
   <project name="darkobas/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="M-caf"/>
