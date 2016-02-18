@@ -468,7 +468,7 @@
   <project path="frameworks/minikin" name="darkobas/android_frameworks_minikin" remote="github" revision="M-caf" />
   <project path="packages/apps/Apollo" name="Omnirom/android_packages_apps_Apollo" remote="github" revision="android-6.0" />
   <project path="packages/apps/Launcher3" name="Omnirom/android_packages_apps_Launcher3" remote="github" revision="android-6.0" />
-  <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
+  <project name="darkobas/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="M-caf" />
   <project name="darkobas/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="M-caf" />
   <project name="darkobas/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="github" revision="M-caf" />
   <project name="darkobas/android_system_media" path="system/media" remote="github" revision="M-caf"/>
