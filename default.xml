@@ -160,7 +160,6 @@
   <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2"/>
   <project groups="pdk-cw-fs" name="platform/external/libmtp" path="external/libmtp"/>
   <project name="darkobas/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="M-caf" />
-  <project groups="pdk" name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
   <project groups="pdk" name="platform/external/libnl" path="external/libnl"/>
   <project groups="pdk" name="platform/external/libogg" path="external/libogg"/>
   <project groups="pdk" name="platform/external/libopus" path="external/libopus"/>
