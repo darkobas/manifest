@@ -413,7 +413,7 @@
   <project groups="device" name="darkobas/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="M-caf"/>
 
   <project name="darkobas/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="M-caf"/>
-  <project groups="qcom,default" name="darkobas/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="M-caf"/>
+  <project groups="qcom,default" name="darkobas/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="M-caf-cm"/>
   <project name="darkobas/android_hardware_ril" path="hardware/ril" remote="github" revision="M-caf"/>
 
   <project path="manifest" name="darkobas/manifest" remote="github" revision="M-caf"/>
