@@ -478,6 +478,8 @@
   <project name="CyanogenMod/android_external_google" path="external/google" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_fuse" path="external/fuse" remote="github" revision="cm-13.0" />
   <project name="darkobas/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="M-caf" />
+  <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-13.0" />
   <project name="darkobas/android_bionic" path="bionic" remote="github" revision="M-caf" />
   <project name="darkobas/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="M-caf" />
   <project name="darkobas/android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="M-caf" />
