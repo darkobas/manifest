@@ -76,7 +76,6 @@
   <project groups="pdk-cw-fs" name="platform/external/ceres-solver" path="external/ceres-solver"/>
   <project name="platform/external/chromium-libpac" path="external/chromium-libpac"/>
   <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace"/>
-  <project groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview"/>
   <project groups="pdk" name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/cmockery" path="external/cmockery"/>
   <project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt"/>
@@ -477,6 +476,7 @@
   <project name="CyanogenMod/android_external_google" path="external/google" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_fuse" path="external/fuse" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_jpeg" path="external/jpeg" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_chromium-webview" path="external/chromium-webview" remote="github" revision="cm-13.0" />
   <project name="darkobas/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="M-caf" />
   <project name="darkobas/android_bionic" path="bionic" remote="github" revision="M-caf" />
   <project name="darkobas/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="M-caf" />
