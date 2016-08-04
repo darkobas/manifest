@@ -458,7 +458,6 @@
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-13.0" />
   <project path="external/sepolicy" name="darkobas/android_external_sepolicy" remote="github" revision="M-caf" />
   <project path="frameworks/minikin" name="darkobas/android_frameworks_minikin" remote="github" revision="M-caf" />
-  <project path="packages/apps/Launcher3" name="Omnirom/android_packages_apps_Launcher3" remote="github" revision="android-6.0" />
   <project name="darkobas/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="M-caf" />
   <project name="darkobas/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="M-caf" />
   <project name="darkobas/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="github" revision="M-caf" />
@@ -482,4 +481,5 @@
   <project name="darkobas/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="M-caf" />
   <project name="darkobas/android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="github" revision="M-caf" />
   <project name="darkobas/android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="github" revision="M-caf" />
+  <project name="darkobas/android_packages_apps_SnapdragonLauncher" path="packages/apps/SnapdragonLauncher" remote="github" revision="M-caf" />
 </manifest>
